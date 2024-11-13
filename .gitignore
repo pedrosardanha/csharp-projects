@@ -1,52 +1,39 @@
-# Prerequisites
-*.d
+# Build results
+bin/
+obj/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Visual Studio
+.vscode/
+.vscode-test/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
 
-# Precompiled Headers
-*.gch
-*.pch
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Folder config file
+Desktop.ini
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Log files
+*.log
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Others
+.git/
+.idea/
+.cache/
+*.DS_Store
